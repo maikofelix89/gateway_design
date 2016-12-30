@@ -1,0 +1,116 @@
+body{
+	font-family: 'Raleway', sans-serif;
+}
+
+#main_navbar{
+   margin-bottom: 0px;
+}
+
+#bottom_navbar{
+	background: #1e62a6;
+}
+
+#bottom_navbar .nav > li > a {
+   color: #FFF;
+}
+
+#bottom_navbar .nav > li > a:hover {
+   background: #FFF;
+   color: #1e62a6;
+}
+
+#individual{
+	background: url('../images/card.jpg') center center no-repeat;
+	height: 350px;
+	padding-left: 0px;
+	padding-right: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
+}
+.option_thumb{
+	text-align: center;
+	height: 150px;
+	width: 150px;
+	border-radius: 75px;
+	padding-top: 20%;
+	border-style: solid;
+	border-color: #1e62a6;
+	border-width: 1px;
+	
+}
+.option_thumb .fa{
+	
+}
+.option_thumb h4{
+	
+}
+.option_thumb:hover{
+	background:  #1e62a6;
+	cursor: pointer;
+	
+}
+.option_thumb:hover .fa{
+	
+	color: #FFF;
+}
+.option_thumb:hover h4{
+	
+	color: #FFF;
+}
+
+
+#personal_payment_options{
+	margin-left: 0px;
+	margin-right: 0px;
+}
+.normal_row{
+	padding-top: 3%;
+	padding-bottom: 3%;
+	padding-left: 15%;
+	padding-right: 15%;
+}
+#icon_row{
+	padding-top: 3%;
+}
+#secure{
+	background: #FEFEFE;
+}
+#secure h3{
+
+	 color: #1e62a6;
+
+}
+.secure_icons{
+	padding-top: 10%;
+	padding-left: 3%;
+	padding-right: 3%;
+}
+.secure_icons .fa{
+
+	 color: #1e62a6;
+
+}
+#reg_col{
+	background: rgba(0,0,0,0.6);
+	padding-top: 3%;
+	padding-bottom: 3%;
+	padding-left: 7%;
+	padding-right: 3%;
+}
+#reg_btn{
+	border-radius: 0px;
+	padding-top:10px;
+	padding-bottom: 10px;
+	width: 70%;
+}
+#intro_col{
+	text-align: center;
+	color: #FFF;
+}
+.intro-text{
+	background: rgba(30, 98, 166,0.6);
+	padding-top:3%;
+	padding-bottom: 4%;
+	padding-left: 3%;
+	padding-right: 3%;
+}
