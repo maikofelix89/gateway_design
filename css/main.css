@@ -114,3 +114,59 @@ body{
 	padding-left: 3%;
 	padding-right: 3%;
 }
+
+#mpesa_to_paypal{
+	padding-bottom: 3%;
+	padding-top: 3%;
+	text-align: center;
+}
+#paypal_to_mpesa{
+	padding-bottom: 3%;
+	padding-top: 3%;
+	text-align: center;
+}
+#paypal_to_mpesa{
+	background: #FCFCFC;
+}
+.pesahub_title{
+	color: #1e62a6;
+}
+#tab_row{
+	background: url('../images/abstract.jpg')center center no-repeat;
+	height:100px;
+	padding-top: 30px;
+}
+#tab_col .nav-tabs > li > a {
+    
+    background: #1e62a6;
+   
+}
+#tab_col .nav-tabs > li > a {
+    
+    color:#FFF;
+   
+}
+#tab_col .nav-tabs > li.active > a, .nav-tabs > li.active > a:focus, .nav-tabs > li.active > a:hover {
+   
+    background-color: #fff;
+     color: #1e62a6;
+}
+.tab_row{
+	margin-top: 5%;
+}
+
+.custom_nav_pill  > li.active > a, .nav-pills > li.active > a:focus, .nav-pills > li.active > a:hover {
+    color: #337ab7;
+    background-color: #FFF;
+}
+
+.custom_nav_pill  > li > a {
+    border-radius: 4px;
+    border-left-style: solid;
+}
+
+.custom_nav_pill > li.active{
+  
+    text-decoration: underline;
+    
+}
