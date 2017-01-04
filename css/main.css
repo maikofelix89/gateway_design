@@ -66,8 +66,8 @@ body{
 .normal_row{
 	padding-top: 3%;
 	padding-bottom: 3%;
-	padding-left: 15%;
-	padding-right: 15%;
+	padding-left: 10%;
+	padding-right: 10%;
 }
 #icon_row{
 	padding-top: 3%;
@@ -170,3 +170,65 @@ body{
     text-decoration: underline;
     
 }
+#login_btn,#register_btn {
+    border-radius: 0px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-top: 10px;
+    margin-bottom: auto;
+}
+
+#register_btn{
+	margin-left: 10px;
+}
+#main_right_nav .active{
+	background: #FBFBFB;
+}
+
+#pay_for_bills{
+	padding-top: 2%;
+}
+#pay_fees{
+
+	padding-top: 2%;
+
+}
+#shop_online{
+
+	padding-top: 1%;
+
+}
+.form_title{
+
+	 color: #337ab7;
+
+}
+#western_jumbo{
+	background: url('../images/wu.jpg') center center no-repeat;
+	background-size: cover;
+	height: 200px;
+	text-align: center;
+	color: #FFF;
+}
+#western_jumbo h2{
+	font-weight: 700;
+}
+#mg_jumbo{
+
+	background: url('../images/moneygram.jpg') center center no-repeat;
+	background-size: cover;
+	height: 200px;
+	text-align: center;
+	color: #FFF;
+
+}
+#paypal_jumbo{
+
+   background: url('../images/paypal_receive.jpeg') center center no-repeat;
+	background-size: cover;
+	height: 200px;
+	text-align: center;
+	color: #FFF;
+
+}
+

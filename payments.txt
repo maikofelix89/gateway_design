@@ -44,9 +44,8 @@
        
       </ul>
       <ul class="nav navbar-nav navbar-right">
-           <li class="active"><a href="index.html">Individual</a></li>
-         <li><a href="merchants.html">Merchants</a></li>
-         <li><a href="agents.html">Agents</a></li>
+         <li class="active"><a href="#">Individual</a></li>
+        <li><a href="#">Business</a></li>
       </ul>
     </div><!-- /.navbar-collapse -->
   </div><!-- /.container-fluid -->
@@ -87,12 +86,15 @@
 <div class=" col-md-12">
   <div class="row" id="tab_row">
 
-     <div class="col-md-offset-8 col-md-2" id="tab_col">
+     <div class="col-md-offset-6 col-md-6" id="tab_col">
 
         <!-- Nav tabs -->
         <ul class="nav nav-tabs" role="tablist">
           <li role="presentation" class="active"><a href="#receive" aria-controls="receive" role="tab" data-toggle="tab">Receive Money</a></li>
-          
+          <li role="presentation"><a href="#make_payments" aria-controls="make_payments" role="tab" data-toggle="tab">Make Payments</a></li>
+          <li role="presentation"><a href="#buy_airtime" aria-controls="buy_airtime" role="tab" data-toggle="tab">Buy Airtime</a></li>
+           <li role="presentation"><a href="#shop_online" aria-controls="shop_online" role="tab" data-toggle="tab">Shop Online</a></li>
+          <li role="presentation"><a href="#buy_tickets" aria-controls="buy_tickets" role="tab" data-toggle="tab">Buy Tickets</a></li>
         </ul>
 
      </div>
@@ -122,60 +124,13 @@
                 <div class="col-md-9">
                      <div class="tab-content">
                         <div id="from_mg" class="tab-pane fade in active">
-                                 <div class="row">
-
-                                 <div class="col-md-offset-1 col-md-10">
-
-                            
-                                <div class="jumbotron" id="mg_jumbo">
-                                   <h2 align="center">Moneygram</h2>
-                                </div>
-
-                                <p>In cash, in your bank account, on a prepaid card or (in select countries) on your phone—ask your sender to use the delivery method that's most convenient for you.</p>
-                               
-                              </div>
-
-                           
-
-                          </div>
+                          Money Gram
                         </div>
                         <div id="from_western_union" class="tab-pane fade">
-
-                          <div class="row">
-
-                            <div class="col-md-offset-1 col-md-10">
-
-                            
-                                <div class="jumbotron" id="western_jumbo">
-                                   <h2 align="center">Receive Money</h2>
-                                </div>
-
-                                <p>In cash, in your bank account, on a prepaid card or (in select countries) on your phone—ask your sender to use the delivery method that's most convenient for you.</p>
-                               
-                              </div>
-
-                           
-
-                          </div>
-                             
+                          Western UNion
                         </div>
                         <div id="from_paypal" class="tab-pane fade">
-                              <div class="row">
-
-                                 <div class="col-md-offset-1 col-md-10">
-
-                            
-                                <div class="jumbotron" id="paypal_jumbo">
-                                   <h2 align="center">PayPal</h2>
-                                </div>
-
-                                <p>In cash, in your bank account, on a prepaid card or (in select countries) on your phone—ask your sender to use the delivery method that's most convenient for you.</p>
-                               
-                              </div>
-
-                           
-
-                          </div>
+                          Pay Pal
                         </div>
 
                       </div>
