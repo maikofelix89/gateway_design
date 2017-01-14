@@ -232,3 +232,29 @@ body{
 
 }
 
+#login_register{
+	background: #F8F8F8;
+}
+
+#login_register_row{
+	padding-top: 4%;
+	padding-bottom: 4%;
+}
+#login_tab,#register_tab{
+
+	padding-top: 4%;
+	padding-bottom: 4%;
+
+}
+
+#login_form_btn{
+	width: 100%;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	border-radius:0px;
+}
+.transactions_content{
+
+	padding-top: 4%;
+
+}

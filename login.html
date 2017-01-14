@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Login</title>
+
+    <!-- Bootstrap -->
+    <link href="bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <link rel="stylesheet" type="text/css" href="bower_components/font-awesome/css/font-awesome.min.css">
+
+    <!-- custom css -->
+
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+
+    <!-- custom fonts -->
+
+   <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet"> 
+
+  
+  </head>
+  <body>
+
+    <nav class="navbar" id="main_navbar">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">Pesa Hub</a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+      
+       
+      </ul>
+      <ul class="nav navbar-nav navbar-right" id="main_right_nav">
+           <li class="active"><a href="index.html">Individual</a></li>
+         <li><a href="merchants.html">Merchants</a></li>
+         <li><a href="agents.html">Agents</a></li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+
+   <div class="container-fluid" id="bottom_navbar">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+     
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+
+         <li><a href="receive_money.html">Receive money</a></li>
+          <li><a href="make_payments.html">Make Payments</a></li>
+         <li><a href="#">Buy Airtime</a></li>
+         <li><a href="#">Buy Tickets</a></li>
+        
+       
+
+      
+       
+      </ul>
+      <ul class="nav navbar-nav navbar-right" >
+
+        <li><a class="btn btn-success" id="login_btn"><i class="fa fa-lock fa-fw"></i>Login</a></li>
+        <li><a class="btn btn-danger" id="register_btn"><i class="fa fa-edit fa-fw"></i>Register</a></li>
+
+       
+      
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+
+
+
+      
+
+         <div class="col-md-12" id="login_register">
+
+
+            <div class="row">
+
+            
+
+
+              <div class="col-md-offset-2 col-md-8" id="login_register_row">
+
+
+                  <div class="panel panel-default">
+                    <div class="panel-body">
+
+
+                                   <!-- Nav tabs -->
+                        <ul class="nav nav-tabs" role="tablist">
+                         
+                          <li role="presentation" class="active"><a href="#login_tab" aria-controls="make_payments" role="tab" data-toggle="tab">Login</a></li>
+
+                           <li role="presentation"><a href="#register_tab" aria-controls="make_payments" role="tab" data-toggle="tab">Register</a></li>
+                         
+                        </ul>
+
+                              <div class="tab-content">
+                  
+                                 <div id="login_tab"  class="tab-pane fade in active" >
+
+                                  <div class="row">
+
+                                       <h4 align="center" class="pesahub_title">Login to your account</h4>
+
+                                        <hr class="intro-divider" width="30%" />
+
+                                     <div class="col-md-offset-1 col-md-10">
+
+                                   
+
+                                       <form class="form-horizontal">
+                                          <div class="form-group">
+                                                <div class="col-md-3">
+                                                    <label class="control-label">Email / Username</label>
+                                                </div>
+                                                 <div class="col-md-5">
+                                                   <input type="text" class="form-control" />
+                                                </div>
+                                          </div>
+                                          <div class="form-group">
+                                                <div class="col-md-3">
+                                                    <label class="control-label">Password</label>
+                                                </div>
+                                                 <div class="col-md-5">
+                                                   <input type="password" class="form-control" />
+                                                </div>
+                                          </div>
+
+                                           <div class="form-group">
+                                               
+                                                 <div class="col-md-offset-3 col-md-5">
+                                                   <button class="btn btn-danger btn-lg" id="login_form_btn">Log In</button>
+                                                </div>
+                                          </div>
+
+                                        </form>
+
+                                      </div>
+
+                                    </div>
+
+                                   
+                                 </div>
+
+                                  <div id="register_tab" class="tab-pane fade in" >
+
+                                    <div class="row">
+
+                                       <h4 align="center" class="pesahub_title">Register your Personal account</h4>
+
+                                        <hr class="intro-divider" width="30%" />
+
+                                     <div class="col-md-offset-1 col-md-10">
+
+                                   
+
+                                       <form class="form-horizontal">
+                                          <div class="form-group">
+                                                <div class="col-md-3">
+                                                    <label class="control-label">Email</label>
+                                                </div>
+                                                 <div class="col-md-5">
+                                                   <input type="email" class="form-control" placeholder="john@email.com"/>
+                                                </div>
+                                          </div>
+                                          <div class="form-group">
+                                                <div class="col-md-3">
+                                                    <label class="control-label">Your Name</label>
+                                                </div>
+                                                 <div class="col-md-5">
+                                                   <input type="text" class="form-control" placeholder="First Name"/>
+                                                </div>
+                                          </div>
+
+                                           <div class="form-group">
+                                                <div class="col-md-3">
+                                                    <label class="control-label">Country</label>
+                                                </div>
+                                                 <div class="col-md-5">
+                                                  <select class="form-control">
+                                                      <option>Kenya</option>
+                                                      <option>Uganda</option>
+                                                      <option>Tanzania</option>
+                                                  </select>
+                                                </div>
+                                          </div>
+                                           <div class="form-group">
+                                                <div class="col-md-3">
+                                                    <label class="control-label">Confirm Password</label>
+                                                </div>
+                                                 <div class="col-md-5">
+                                                   <input type="password" class="form-control" />
+                                                </div>
+                                          </div>
+                                           <div class="form-group">
+                                                <div class="col-md-3">
+                                                    <label class="control-label">Password</label>
+                                                </div>
+                                                 <div class="col-md-5">
+                                                   <input type="password" class="form-control" />
+                                                </div>
+                                          </div>
+
+                                           <div class="form-group">
+                                               
+                                                 <div class="col-md-offset-3 col-md-5">
+                                                   <button class="btn btn-danger btn-lg" id="login_form_btn">Log In</button>
+                                                </div>
+                                          </div>
+
+                                        </form>
+
+                                      </div>
+
+                                    </div>
+
+                                      
+                                 </div>
+
+                             </div>
+
+                   </div>
+
+              </div>
+            </div>
+
+
+              </div>
+
+        
+
+          </div>
+
+ 
+ 
+
+
+
+
+  
+
+   
+
+
+
+
+   
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="bower_components/jquery/dist/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+  </body>
+</html>
